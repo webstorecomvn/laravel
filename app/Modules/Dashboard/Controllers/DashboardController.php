@@ -20,7 +20,6 @@ class DashboardController extends Webstore
      */
     public function index()
     {
-        // dd(get_option('ws_action_admin_enqueue_scripts'));
         $method = 'do'.ucfirst($this->method);
         if(false == method_exists($this, $method)) {
             ws_redirect($this->referer);
