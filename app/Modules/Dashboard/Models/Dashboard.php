@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Modules\Dashboard\Models;
 
 use App\Http\Controllers\Webstore;
