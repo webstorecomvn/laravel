@@ -1,0 +1,17 @@
+th.manage-column.column-action,
+td.manage-column.column-action {
+	display: none;
+}
+th.manage-column.column-default,
+td.manage-column.column-default {
+	width: 42px;
+}
+input.form-control, 
+select.form-control, 
+textarea.form-control {
+    padding: 3px 5px;
+}
+select.form-control {
+	padding-right: 18px;
+	background-position: right 5px center;
+}

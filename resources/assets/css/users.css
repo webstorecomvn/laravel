@@ -1,0 +1,47 @@
+#user-pass-wrap {
+	max-width: 25em;
+}
+#user-pass-wrap .form-input {
+	gap: 5px;
+	display: flex;
+	align-items: center;
+}
+#user-pass-wrap #hide-pw::before {
+	font-size: 16px;
+	margin-right: 5px;
+	font-family: "FontAwesome";
+}
+#user-pass-wrap #password[type=password] {
+	font-size: 24px;
+}
+
+
+/* manage */
+.manage .column-posts,
+.manage .column-orders {
+	width: 1% ! important;
+	text-align: center ! important;
+}
+.manage .tablenav .btn-group {
+	gap: 20px;
+	align-items: center;
+	display: inline-flex;
+}
+
+/* edit */
+.edit .form-table .form-field.user_info th {
+	padding-top: 5px;
+}
+.edit .form-table .form-field.field-title h4 {
+	margin: 0;
+	font-size: 16px
+}
+.edit .form-field.user_login .form-control,
+.edit .form-field.user_login .description {
+	float: left;
+}
+.edit .form-field.user_login .description {
+	color: #3c434a;
+	margin: 0 0 0 5px;
+	line-height: 30px;
+}

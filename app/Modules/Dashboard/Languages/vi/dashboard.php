@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'dashboard' => 'Bảng tin',
+    'viewall' => 'Xem tất cả',
+    'welcome' => 'Chào mừng',
+    'lastlogin' => 'lần đăng nhập gần đây vào lúc : ',
+    'statistics' => 'Thống kê truy cập',
+    'adminlogs' => 'Hoạt động gần đây',
+    'visitors' => 'Khách truy cập nhiều',
+    'system' => 'Thông tin hệ thống',
+    'orders' => 'Đơn hàng',
+    'posts' => 'Bài viết',
+    'pages' => 'Trang',
+    'comments' => 'Bình luận',
+    'chartVisitorsLabel' => 'Khách',
+    'chartVisitsLabel' => 'Lượt truy cập',
+    'chartOptionsScalesXAxesScaleLabelLabelString' => 'Ngày',
+    'chartOptionsScalesYAxesScaleLabelLabelString' => 'Lượt truy cập',
+    'chartOptionsTitleText' => 'Số liệu thống kê truy cập trong %u ngày gần nhất',
+    'userLoginColumn' => 'Tên người dùng',
+    'catColumn' => 'Trang',
+    'actionColumn' => 'Hành động',
+    'pidColumn' => 'Name / ID',
+    'timeColumn' => 'Thời gian',
+    'ipColumn' => 'Địa chỉ IP',
+];

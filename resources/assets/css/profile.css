@@ -1,0 +1,33 @@
+#user-pass-wrap {
+	max-width: 25em;
+}
+#user-pass-wrap .form-input {
+	gap: 5px;
+	display: flex;
+	align-items: center;
+}
+#user-pass-wrap #hide-pw::before {
+	font-size: 16px;
+	margin-right: 5px;
+	font-family: "FontAwesome";
+}
+#user-pass-wrap #password[type=password] {
+	font-size: 24px;
+}
+
+.form-table .form-field.user_info th {
+	padding-top: 5px;
+}
+.form-table .form-field.field-title h4 {
+	margin: 0;
+	font-size: 16px
+}
+.form-field.user_login .form-control,
+.form-field.user_login .description {
+	float: left;
+}
+.form-field.user_login .description {
+	color: #3c434a;
+	margin: 0 0 0 5px;
+	line-height: 30px;
+}

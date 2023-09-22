@@ -1,0 +1,28 @@
+.column-picture img {
+	width: auto;
+	height: auto;
+	max-width: 400px;
+	max-height: 100px;
+	display: inline-flex;
+}
+ul.list-device-radio {
+	gap: 10px;
+	margin: 0;
+    padding: 0;
+	display: grid;
+	list-style: none;
+	align-items: center;
+}
+ul.list-device-radio label {
+	margin: 0;
+	font-weight: 400;
+}
+ul.list-device-radio input {
+	margin-right: 5px;
+}
+@media screen and (max-width: 767px)
+{
+	.page-advertise table.table-list .column-link {
+		display: none;
+	}
+}

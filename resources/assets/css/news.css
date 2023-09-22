@@ -1,0 +1,258 @@
+#box-focus th.manage-column.column-title,
+#box-focus td.manage-column.column-title {
+	width: 35%;
+}
+th.manage-column.column-menu_order,
+td.manage-column.column-menu_order {
+	white-space: nowrap;
+}
+th.manage-column.column-count,
+td.manage-column.column-count {
+	width: 1%;
+	text-align: center;
+}
+div.input-group-addon {
+	height: 30px;
+	cursor: pointer;
+}
+div.item-title {
+	color: #F77225;
+	font-size: 12px;
+	margin-top: -2px;
+	position: relative;
+}
+#posts-filter .date {
+	float:left;
+	width:150px;
+}
+#posts-filter .field-date {
+	width: 125px ! important;
+}
+
+label.date_to {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+div.maso {
+	color: #F77225;
+	font-size: 12px;
+	font-weight: 700;
+}
+.note-excel {
+	float: left;
+	padding: 20px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px dashed #F77225;
+}
+.item-price::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.item-price input {
+	float: left;
+	margin-right: 5px;
+}
+.item-price a {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../images/icon-price.png) no-repeat;
+	background-size: 30px 30px;
+}
+
+.input-group-wrap {
+	overflow: hidden;
+}
+.input-group-wrap > .form-control {
+	float: left;
+	border-right: none;
+	width: calc(100% - 150px);
+	width: -webkit-calc(100% - 150px);
+}
+.input-group-wrap > .input-group {
+	float: left;
+	width: 150px;
+}
+.input-group-wrap > .input-group > input {
+	font-weight: 700;
+	text-align: center;
+}
+
+/* list-check-search */
+.post-op_search .form-label {
+    width: 20% !important;
+}
+ul.list-check-search {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: -1px;
+    margin-right: -1px;
+	position: relative;
+    background: #ffffff;
+}
+ul.list-check-search li {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    list-style: none;
+    border-right: 1px solid #d2d6de;
+    border-bottom: 1px solid #d2d6de;
+}
+ul.list-check-search label {
+    margin: 0;
+	cursor: pointer;
+    font-weight: 400;
+    padding-left: 3px;
+}
+ul.list-check-search li:nth-child(5n+5) {
+	border-right: 0;
+}
+
+/* mb-info-hotdeal */
+#mb-info-hotdeal .input-group {
+    float: left;
+    width: 190px;
+	text-align: center;
+}
+#mb-info-hotdeal .form-input {
+	padding: 5px;
+}
+
+#box-hotdeal #list-product .column-deal_order {
+	display: none;
+}
+#box-hotdeal tbody td.column-deal_sold {
+	text-align: center !important;
+}
+.setting-rate .column {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.setting-rate .column.last {
+	margin-right: 0;
+}
+
+ul.brands {
+	margin: 0 0 -5px;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+}
+ul.brands li {
+	background-color: #0073aa;
+	margin: 0 5px 5px 0;
+	word-break: break-all;
+	height: 20px;
+	line-height: 20px;
+	color: white;
+	padding: 0 5px;
+	border-radius: 2px;
+	float: left;
+	font-size: 12px;
+}
+
+td.column-picture img {
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+}
+
+.list-item th.column-focus_order,
+.list-item td.column-focus_order {
+	display: none;
+}
+
+
+#add-taxonomy tr,
+#add-taxonomy th,
+#add-taxonomy td {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+#add-taxonomy tr {
+	margin-bottom: 20px;
+}
+#add-taxonomy th {
+	margin-bottom: 3px;
+}
+
+#add-taxonomy .field-title {
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.page-news.content-news .column-menu_order,
+.page-news.content-news button[name=update] {
+	display: none;
+}
+
+.bootstrap-tagsinput {
+    width: 100%;
+    padding: 3px 5px;
+    min-height: 30px;
+    border-radius: 4px;
+	border-color: #8c8f94;
+}
+.bootstrap-tagsinput:hover {
+	outline: 0;
+	border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+.bootstrap-tagsinput input {
+	padding: 0;
+}
+.bootstrap-tagsinput .tag {
+	top: -1px;
+    position: relative;
+	background-color: #0085ba !important;
+}
+.bootstrap-tagsinput.focus {
+    outline: 0;
+    border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.bootstrap-tagsinput .tag [data-role="remove"] {
+    margin-left: 5px;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover {
+	box-shadow: none;
+}
+#post-date_post .form-label {
+	line-height: 18px;
+}
+#post-date_post .form-label .fa {
+	color: gray;
+	margin-right: 5px;
+}
+#post-date_post .form-label a {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 767px)
+{
+	.page-news table.table-list .column-slug,
+	.page-news table.table-list .column-date,
+	.page-news table.table-list .column-views,
+	.page-news table.table-list .column-count,
+	.page-news table.table-list .column-cat_id,
+	.page-news table.table-list .column-picture,
+	.page-news.content-news #posts-filter.metabox .form-field:nth-child(3),
+	.page-news.content-focus #posts-filter.metabox .form-field:nth-child(3) {
+		display: none;
+	}
+}

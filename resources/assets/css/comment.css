@@ -1,0 +1,217 @@
+.page-comment .unapproved:not(:last-child) td,
+.page-comment .unapproved:not(:last-child) th {
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 10%);
+}
+.page-comment .row_item.unapproved td {
+	background-color: #fcf9e8;
+}
+.page-comment .row_item.unapproved .column-cb {
+	position: relative;
+}
+.page-comment .row_item.unapproved .column-cb::before {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	content: '';
+	position: absolute;
+	border-left: 4px solid #d63638;
+}
+.row-actions {
+	margin-top: 10px;
+}
+table.table-list > tbody > tr > td {
+	vertical-align: top;
+}
+td.manage-column.column-cb input {
+	display: flex;
+}
+td.manage-column.column-display label {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+ul.list-radio {
+	display: flex;
+	column-gap: 20px;
+	align-items: center;
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-radio label {
+	display: flex;
+	column-gap: 5px;
+	font-weight: 400;
+	align-items: center;
+}
+.info {
+	margin: 0;
+    padding:0;
+	list-style: none;
+    min-height: 40px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.info .last {
+	font-weight:700;
+}
+.column-content {
+	width:30%;
+}
+.column-avatar {
+	white-space:nowrap;
+}
+.avatar-author {
+	gap: 10px;
+	display: flex;
+}
+.info-title {
+	gap: 3px;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	list-style: none;
+	position: relative;
+}
+.info-title li {
+	white-space: nowrap;
+}
+.info-title li:not(:first-child) {
+	font-size: 13px;
+}
+.info-title li:first-child i {
+	color: #ffc73b;
+	margin-left: 2px;
+}
+.avatar {
+	color: white;
+	display: table;
+	background: #ddd;
+	text-align: center;
+	border-radius: 50%;
+	display: none;
+}
+.avatar span {
+	font-size: 16px;
+	display: table-cell;
+	vertical-align: middle;
+}
+label.date_to {
+	padding: 0 10px;
+	line-height: 30px;
+}
+table.table-list th:last-child,
+table.table-list td:last-child {
+	width: 1%;
+	white-space: nowrap;
+}
+table.table-list td.column-date a {
+	display: grid;
+}
+table.table-list td.column-content p:first-child {
+	color: #555;
+	font-size: 13px;
+}
+.comment-count-approved {
+	padding: 5px;
+	margin: 5px 0;
+    color: white;
+    min-width: 24px;
+	font-weight: 400;
+    text-align: center;
+	position: relative;
+    border-radius: 5px;
+    background-color: #646970;
+}
+.comment-count-approved::after {
+	content: "";
+    display: block;
+    margin-left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #646970;
+    border-right: 5px solid transparent;
+	position: absolute;
+    top: 100%;
+    left: 0;
+}
+.comment-count-approved:hover {
+	background: var(--ws);
+}
+.comment-count-approved:hover::after {
+	border-top-color: var(--ws);
+}
+#replyrow td {
+	padding: 0;
+	border: 1px solid var(--ws-border-color);
+}
+#replyrow .comment-reply {
+	gap: 5px;
+    padding: 10px;
+	display: grid;
+	background: #fafafa !important;
+}
+#replyrow .comment-reply .replyhead {
+	font-weight: 500;
+}
+.reply-submit-buttons {
+    gap: 10px;
+	display: flex;
+	margin: 5px 0 0;
+    align-items: center;
+}
+.comments-view-item-link {
+	display: block;
+	margin-top: 2px;
+	font-size: 12px;
+}
+.comment-count-moderated {
+	min-width: 20px;
+	min-height: 20px;
+	padding: 2px 5px;
+	background: #d63638;
+	border: 2px solid #fff;
+	font-weight: 400;
+    font-size: 10px;
+    display: inline-grid;
+    align-items: center;
+	margin-top: -10px;
+    position: relative;
+    margin-left: -3px;
+}
+.comment-count-moderated:focus {
+    outline: 1px solid transparent;
+	box-shadow: 0 0 0 1px #4f94d4, 0 0 2px 1px rgb(79 148 212 / 80%);
+}
+.edithead {
+	gap: 10px;
+	display: flex;
+	margin-top: 5px;
+	min-height: 30px;
+    align-items: center;
+}
+.edithead .inside {
+	gap: 5px;
+	display: flex;
+	align-items: center;
+}
+.edithead .inside label {
+	margin: 0;
+	font-weight: 400;
+	white-space: nowrap;
+}
+@media screen and (max-width: 767px)
+{
+	.admin-tablelist .btn-group:nth-child(3),
+	.content-comment table.table-list .column-date,
+	.content-comment table.table-list .column-post_id {
+		display: none;
+	}
+	.admin-tablelist .posts-filter .subsubsub {
+		float: none;
+		row-gap: 15px;
+		font-size: 16px;
+		display: inline-flex;
+		margin: 10px auto 20px;
+	}
+}

@@ -1,0 +1,253 @@
+.btn-export {
+	font-weight: 500;
+}
+.tablenav .btn-group {
+	gap: 20px;
+}
+.content-order.manage:not(.open) .search-form .form-field-1 {
+	display: none;
+}
+.page-order .row-status-1:not(:last-child) > td,
+.page-order .row-status-1:not(:last-child) > th {
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 10%);
+}
+.page-order .row_item.row-status-1 > td {
+	background-color: #fcf9e8;
+}
+.metabox table.table-list > thead {
+	border-top: none;
+}
+.metabox table.table-list > tfoot {
+	border-bottom: 0;
+}
+.d-flex {
+	gap: 5px;
+	display: flex;
+	align-items: center;
+}
+table.customer-info td {
+	border: none;
+	padding: 4px 0;
+    line-height: 1.5;
+}
+table.customer-info td.saperator {
+	padding:0 10px;
+}
+.table-list .customer-info td {
+	padding: 0;
+	line-height: 22px;
+}
+.content-order .column-total_price {
+	width: 1%;
+	text-align: right;
+}
+.content-order .column-quantity {
+	text-align: center;
+}
+td.manage-column.column-checkbox .fa {
+	font-size: 18px;
+}
+td.manage-column.column-price,
+td.manage-column.column-subtotal {
+	white-space: nowrap;
+}
+tr.moderated .column-checkbox {
+	position: relative;
+}
+tr.moderated .column-checkbox::before {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 3px;
+	content: '';
+	position: absolute;
+	border-left: 4px solid #d54e21;
+}
+.table-top {
+	width:100%; 
+	background:#FFF; 
+	box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+	border: 1px solid var(--ws-border-color);
+}
+.table-top .order_code { 
+	color: #F00; 
+	font-size: 20px; 
+	line-height: 30px; 
+	font-weight: bold; 
+}
+.table-top .status_label { 
+	font-size: 18px; 
+	border: 1px solid #ccc; 
+	padding: 5px 10px; 
+	display: inline-block; 
+}
+.table-top .status_label {
+	background:#FFF;
+}
+.table-top .rowTd { 
+	padding:15px; 
+}
+.table-top .rowLeft { 
+	text-align:left;
+}
+.table-top .rowMiddle { 
+	text-align:center;
+}
+.table-top .rowRight { 
+	text-align:right;
+}
+#customer .infoTitle {
+	font-size:14px;
+	margin-bottom:5px;
+}
+#customer .noteField {
+	font-size:13px;
+}
+.table-customer td{
+	padding:5px 0;
+	line-height: 1.4em;
+}
+.table-customer .rowMiddle {
+	padding:0 10px;
+}
+input#ship_date {
+	display:inline-block;
+}
+
+.col-config {
+	text-align:center !important;
+}
+.col-price {
+	text-align:right !important;
+}
+a.payment-config {
+	width:22px;
+	height:22px;
+	margin:auto;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/but_run.gif) no-repeat center center;
+}
+
+#posts-filter .form-control {
+	float:left;
+	margin-right:5px;
+}
+
+.column-config,
+.column-is_default,
+.column-is_payment,
+.column-is_complete,
+.column-is_cancel,
+.column-is_customer {
+	text-align:center !important;
+}
+.column-action {
+	width:150px !important;
+}
+
+/* cart-info style */
+#cart-info table.cart-info {
+	margin:0;
+	border-top:0;
+}
+#order-update,
+#order-notes {
+	border-bottom-width: 1px;
+}
+#order-notes {
+	box-shadow: none;
+}
+#order-notes tbody {
+	border: none;
+}
+#order-update .btn-submit {
+	height: 40px;
+}
+#order-notes table.table-list th,
+#cart-info table.cart-info th {
+	padding: 10px;
+	font-weight: 500;
+}
+#order-notes table.table-list th,
+#order-notes table.table-list td,
+#cart-info table.cart-info td {
+	height: 40px;
+	padding: 10px;
+}
+#cart-info .column-subtotal {
+	text-align:right;
+}
+#cart-info .pname {
+	margin-bottom: 3px;
+}
+.column-pname .hashtag {
+	font-size: 13px;
+}
+.cart-item .column-price,
+.cart-item .column-subtotal {
+	font-weight:500;
+}
+
+#cart-info th {
+	height: 35px;
+	font-weight: 500 !important;
+}
+
+.metabox .form-wrap.tbl .form-input {
+	padding: 5px;
+}
+
+#posts-filter .date {
+	float:left;
+	width:150px;
+}
+#posts-filter .input-group-addon {
+	width: 40px;
+}
+#posts-filter .date .form-control {
+	margin: 0;
+	width: 110px;
+}
+label.date_to {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.hashtag::before {
+	content: '#';
+	margin-right: 1px;
+}
+.field-date {
+	text-align: center;
+	width: 135px !important;
+}
+
+.input-group.date {
+	max-width: 152px;
+}
+.no-padding>.tbl {
+	border: none;
+}
+
+.coupon-type {
+	display: flex;
+}
+.coupon-status {
+	width: 75px;
+	font-size: 12px;
+	background: blue;
+	font-weight: 700;
+	padding: 2px 5px;
+	border-radius: 3px;
+	text-align: center;
+	display: inline-block;
+	color: white ! important;
+}
+.coupon-status.text-red {
+	background-color: #dd4b39;
+}

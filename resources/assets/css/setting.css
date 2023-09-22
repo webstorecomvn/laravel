@@ -1,0 +1,6 @@
+.td-label {
+    gap: 7px;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+}

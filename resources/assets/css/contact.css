@@ -1,0 +1,17 @@
+.column-status .status {
+	float: left;
+	color: white;
+	font-weight: 700;
+	padding: 2px 5px;
+	border-radius: 2px;
+}
+.column-date {
+	width: 1%;
+}
+.btn-update-map {
+	height: 30px;
+	padding: 0 10px;
+}
+.btn-update-map:focus {
+	outline: none;
+}

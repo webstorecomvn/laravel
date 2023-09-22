@@ -1,0 +1,12 @@
+.content-page table.table-list .column-date {
+	width: 1%;
+}
+@media screen and (max-width: 767px)
+{
+	.content-page table.table-list .column-slug,
+	.content-page table.table-list .column-date,
+	.content-page table.table-list .column-views,
+	.content-page table.table-list .column-picture {
+		display: none;
+	}
+}

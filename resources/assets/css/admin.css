@@ -1,0 +1,95 @@
+.input-group.date {
+	float: left;
+	width: 125px;
+}
+.form-input > label[for=date_to] {
+    margin-left: 15px;
+    margin-right: 10px;
+	height:30px;
+	line-height:30px;
+	float:left;
+}
+ul.list_option {
+	margin: 0;
+	gap: 12px;
+	padding: 12px;
+	display: grid;
+	list-style: none;
+	align-items: center;
+	grid-template-columns: repeat(5, 1fr);
+}
+ul.list_option>li>label {
+	display: flex;
+	font-weight: 400;
+    align-items: center;
+}
+ul.list_option>li>label>input {
+	margin-right:5px;
+}
+#capacity .metabox:last-child {
+	margin-bottom:0;
+}
+#capacity .form-label {
+	width: 30%;
+}
+#capacity .form-label label {
+	line-height: 20px;
+}
+#capacity .form-wrap.tbl .form-input {
+	padding: 0;
+}
+
+#user-pass-wrap .form-input {
+	display:table;
+	width:100%;
+}
+#user-pass-wrap .form-input * {
+	margin-right:5px;
+	display:inline-block;
+	vertical-align:middle;
+}
+#user-pass-wrap #hide-pw::before {
+	margin-right:5px;
+	font-family:FontAwesome;
+}
+#capacity {
+	padding-right:0 !important;
+}
+#password {
+	max-width: 230px;
+}
+#capacity .form-field:last-child {
+	border-bottom: 0;
+}
+.column-ip {
+	width:100px;
+	text-align:right !important;
+}
+
+@media screen and (max-width: 767px)
+{
+	.content-group table.table-list .column-role,
+	#posts-filter.metabox .form-field #search,
+	#posts-filter.metabox .form-field:nth-child(3),
+	.page-admin table.table-list .column-ip,
+	.page-admin table.table-list .column-cat,
+	.page-admin table.table-list .column-act,
+	.page-admin table.table-list .column-page,
+	.page-admin table.table-list .column-lastlogin,
+	.page-admin table.table-list .column-last_login {
+		display: none;
+	}
+	.page-admin table.table-list .column-time {
+		white-space: nowrap;
+		width: 1% ! important;
+	}
+}
+
+#add-taxonomy .form-field {
+	gap: 5px;
+	display: grid;
+	margin-bottom: 20px;
+}
+#category-box .btn-submit {
+	margin-top: 20px;
+}

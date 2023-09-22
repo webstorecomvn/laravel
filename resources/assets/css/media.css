@@ -1,0 +1,27 @@
+#media-box {
+	position:relative;
+	padding-top:65%;
+}
+.iframe {
+	width:100%;
+	border:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+#box-setting .form-label {
+	margin-bottom: 5px;
+}
+#box-setting .form-button {
+	padding: 10px;
+	background: #fafafa;
+	margin: 10px -10px -10px;
+	border-top: 1px solid #eee;
+}
+#box-setting .form-button .description {
+	margin-top: 0;
+	margin-bottom: 10px;
+}

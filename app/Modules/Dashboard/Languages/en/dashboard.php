@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'dashboard' => 'Dashboard',
+    'viewall' => 'View All',
+    'welcome' => 'Welcome',
+    'lastlogin' => 'last login was at: ',
+    'statistics' => 'Statistics Visitor',
+    'adminlogs' => 'Admin Logs',
+    'visitors' => 'Visitors',
+    'system' => 'System Info',
+    'orders' => 'Orders',
+    'posts' => 'Posts',
+    'pages' => 'Pages',
+    'comments' => 'Comments',
+    'chartVisitorsLabel' => 'Guest',
+    'chartVisitsLabel' => 'Visitors',
+    'chartOptionsScalesXAxesScaleLabelLabelString' => 'Days',
+    'chartOptionsScalesYAxesScaleLabelLabelString' => 'Visitors',
+    'chartOptionsTitleText' => 'Visit statistics for the last %u days',
+    'userLoginColumn' => 'Username',
+    'catColumn' => 'Page',
+    'actionColumn' => 'Action',
+    'pidColumn' => 'Name / ID',
+    'timeColumn' => 'Time',
+    'ipColumn' => 'Client IP',
+];

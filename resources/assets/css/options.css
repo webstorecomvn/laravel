@@ -1,0 +1,41 @@
+tr.field-setting > td > label {
+	font-weight: 400;
+	margin: 0 0 0 3px;
+}
+#field-title-note th {
+	font-size: 13px;
+	font-weight: 400;
+}
+.classic-editor-options {
+	display: flex;
+}
+.classic-editor-options label {
+	font-weight: 400;
+}
+.classic-editor-options p {
+	margin-bottom: 0;
+}
+.classic-editor-options p:not(:last-child) {
+	margin-right: 20px;
+}
+
+.field-default_post_format {
+	display: none;
+}
+
+#field-submit th {
+	display: none;
+}
+#field-submit td {
+	padding-left: 0;
+}
+.td-label {
+    gap: 7px;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+}
+.td-label label {
+	margin: 0;
+	font-weight: 400;
+}

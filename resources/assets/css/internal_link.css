@@ -1,0 +1,38 @@
+.td-check {
+  gap: 7px;
+  display: flex;
+  align-items: center;
+}
+.td-check p {
+  margin: 0;
+}
+.radio-list {
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  list-style: none;
+  align-items: center;
+}
+.radio-list li {
+  gap: 7px;
+  display: flex;
+  align-items: center;
+}
+.radio-list li label {
+  margin: 0;
+  font-weight: 400;
+}
+
+.button-group {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+div.suspend,
+div.publish {
+  white-space: nowrap;
+}
+div.suspend {
+  color: #dc3232;
+}
